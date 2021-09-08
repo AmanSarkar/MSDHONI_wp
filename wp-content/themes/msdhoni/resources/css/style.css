@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+*{
+    padding: 0;
+    margin: 0;   
+}
+body{
+    background-image: linear-gradient(blue,white);
+}
+
+
+.mypa{
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    list-style: none;
+    justify-content: right;
+    margin:0%;
+}
+.mypa li{
+    padding: 20px 20px 25px 20px;
+}
+
+nav{
+     list-style: none;
+    color: white;
+}
+.entry-title{
+    padding: 0 0 0 50px;
+}
+footer{
+    background-color: black;
+    height: 8vh;
+    color: aliceblue;
+    font-family: 'Fira Sans', sans-serif;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+}
+
+.card_item{
+   background-color:black;
+   color: white;
+   width: 300px;
+   height: 400px;  
+   margin: 5px 10px;
+   border-radius: 15px;
+   overflow: hidden;
+}
+.card_item .card_image{
+    width:300px;
+    height:180px;
+    background-size: cover;
+}
+.card_item h3{
+    padding: 0px 15px;
+    max-width:300;
+    height: 180px;
+}
+
+.card_item .card_link a{
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    padding: 0px 20px;
+    display:block;
+    text-align: center;
+    text-decoration: none;
+    margin: 15px 100px;
+}
+
+
+@media screen {
+    
+}
+.card_link :hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+.card_image :hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.container{
+    width:100vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ 
